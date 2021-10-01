@@ -34,9 +34,6 @@ while(1) {
 		if (temp== 0x07 || temp== 0x0B || temp== 0x0D || temp== 0x0E) {
             cntavail = 0x01;
         }
-        if(temp==0xFF){
-        	cntavail = 0x08;
-        }
 		
 		
 		
