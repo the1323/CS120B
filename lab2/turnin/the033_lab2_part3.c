@@ -1,7 +1,7 @@
-/*	Author:Tongyuan He
+/*	Author:Tongyuan He &the033@ucr.edu
  *  Partner(s) Name:
- *	Lab Section:
- *	Assignment: Lab #2  Exercise #1
+ *	Lab Section: 021
+ *	Assignment: Lab #2  Exercise #3
  *	Exercise Description: [optional - include for your own benefit]
  *
  *	I acknowledge all content contained herein, excluding template or example
@@ -20,6 +20,8 @@ int main(void) {
 while(1) {
         
 		temp = PINA;
+		temp = temp & 0x0F;
+		cntavail=0x00;
 		if(temp ==0x00){//0000
 		    cntavail =0x04;
 		}
@@ -34,8 +36,8 @@ while(1) {
 		if (temp== 0x07 || temp== 0x0B || temp== 0x0D || temp== 0x0E) {
             cntavail = 0x01;
         }
-        if(temp==0xFF){
-        	cntavail = 0x08;
+        if(temp==0x0F){
+        	cntavail = 0x80;
         }
 		
 		

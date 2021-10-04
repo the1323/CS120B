@@ -1,7 +1,7 @@
-/*	Author:Tongyuan He
+/*	Author:Tongyuan He &the033@ucr.edu
  *  Partner(s) Name:
- *	Lab Section:
- *	Assignment: Lab #2  Exercise #1
+ *	Lab Section: 021
+ *	Assignment: Lab #2  Exercise #2
  *	Exercise Description: [optional - include for your own benefit]
  *
  *	I acknowledge all content contained herein, excluding template or example
@@ -19,7 +19,9 @@ int main(void) {
 	unsigned char cntavail=0x00;
 while(1) {
         
+        cntavail=0x00;
 		temp = PINA;
+		temp = temp & 0x0F;
 		if(temp ==0x00){//0000
 		    cntavail =0x04;
 		}

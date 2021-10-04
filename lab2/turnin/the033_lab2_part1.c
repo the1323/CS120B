@@ -1,6 +1,6 @@
-/*	Author:Tongyuan He
+/*	Author:Tongyuan He &the033@ucr.edu
  *  Partner(s) Name:
- *	Lab Section:
+ *	Lab Section: 021
  *	Assignment: Lab #2  Exercise #1
  *	Exercise Description: [optional - include for your own benefit]
  *
